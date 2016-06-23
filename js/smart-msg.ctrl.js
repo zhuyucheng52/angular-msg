@@ -47,7 +47,7 @@
 
         appCtrl.confirmOk= function () {
             console.log('confirm');
-            var title = 'ok&cancel';
+            var title = 'ok';
             var content = 'bbb';
             var okFn = function () {
                 console.log('ok button click');
