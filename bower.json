@@ -5,7 +5,7 @@
     "Echo <zhuyucheng52@outlook.com>"
   ],
   "description": "angular message service",
-  "main": "angular.msg.js",
+  "main": "smart-msg.js",
   "keywords": [
     "msg",
     "toaster",
