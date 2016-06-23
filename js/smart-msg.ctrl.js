@@ -1,7 +1,8 @@
 (function () {
     'use strict';
 
-    app.controller('AppCtrl', ['toastr', 'ngDialog', '$rootScope', 'msgService', function(toastr, ngDialog, $rootScope, msgService) {
+    app.controller('AppCtrl', ['toastr', 'ngDialog', '$rootScope', 'msgService',
+        function(toastr, ngDialog, $rootScope, msgService) {
         var appCtrl = this;
 
         var generateConfirmParams = function (title, content, okFn, cancelFn) {
