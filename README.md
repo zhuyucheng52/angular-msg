@@ -1,2 +1,2 @@
-# angular-msg
-angularJS message service 
+# smart-msg
+angularJS message service component

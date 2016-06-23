@@ -1,0 +1,29 @@
+{
+  "name": "angular-msg",
+  "homepage": "https://github.com/zhuyucheng52/angular-msg",
+  "authors": [
+    "Echo <zhuyucheng52@outlook.com>"
+  ],
+  "description": "angular message service",
+  "main": "angular.msg.js",
+  "keywords": [
+    "msg",
+    "toaster",
+    "ngdialog",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ng-dialog": "^0.6.2",
+    "bootstrap": "^3.3.6",
+    "angular-animate": "^1.5.7",
+    "angular": "1.5.6"
+  }
+}

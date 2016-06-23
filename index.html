@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html data-ng-app="app">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bower_components/angular-toastr/dist/angular-toastr.min.css"/>
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog.min.css"/>
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog-theme-default.min.css"/>
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog-theme-plain.min.css"/>
+    <link rel="stylesheet" href="bower_components/ng-dialog/css/ngDialog-custom-width.css"/>
+
+</head>
+<body data-ng-controller="AppCtrl as appCtrl">
+
+<button data-ng-click="appCtrl.success()">success</button>
+<button data-ng-click="appCtrl.warning()">warning</button>
+<button data-ng-click="appCtrl.info()">info</button>
+<button data-ng-click="appCtrl.error()">error</button>
+<br/>
+<button data-ng-click="appCtrl.confirmOk()">ok</button>
+<button data-ng-click="appCtrl.confirmOkCancel()">ok&cancel</button>
+
+</body>
+<script src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-animate/angular-animate.js"></script>
+<script src="bower_components/angular-toastr/dist/angular-toastr.tpls.min.js"></script>
+<script src="bower_components/ng-dialog/js/ngDialog.min.js"></script>
+<script>
+    var app = angular.module('app', ['ngAnimate', 'toastr', 'ngDialog']);
+</script>
+<script src="js/smart-msg.js"></script>
+<script src="js/smart-msg.ctrl.js"></script>
+</html>
